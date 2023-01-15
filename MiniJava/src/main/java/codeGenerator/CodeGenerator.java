@@ -3,9 +3,6 @@ package codeGenerator;
 import Log.Log;
 import errorHandler.ErrorHandler;
 import scanner.token.Token;
-import semantic.symbol.Symbol;
-import semantic.symbol.SymbolTable;
-import semantic.symbol.SymbolType;
 
 import java.util.Stack;
 
