@@ -3,7 +3,7 @@ package codeGenerator;
 import scanner.token.Token;
 
 public class CodeGeneratorFacade {
-    public CodeGenerator codeGenerator;
+    private CodeGenerator codeGenerator;
 
     public CodeGeneratorFacade() {
         this.codeGenerator = new CodeGenerator();
